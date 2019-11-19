@@ -17,5 +17,7 @@ It is meant to work in the following scenarios:
 
 # 2. Model Training and Evaluation
 
-# 3. Model Packaging
+# 3. Model Packaging and Deployment
+`docker build -t modeldemo .`  
+`docker run -p 5000:5000 modeldemo`
 
