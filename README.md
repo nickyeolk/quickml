@@ -13,6 +13,6 @@ Template for data science tasks. This folder has the following workflow:
 # 2. Model Training and Evaluation
 
 # 3. Model Packaging and Deployment
-`docker build -t modeldemo .`
+`docker build -t modeldemo .`  
 `docker run -p 5000:5000 modeldemo`
 
