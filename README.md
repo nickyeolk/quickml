@@ -25,10 +25,10 @@ conda create -n myenv python=3 jupyter scikit-learn pandas seaborn streamlit
 conda activate myenv
 ```
 ### Docker 
-'''
+```
 docker build -t myproject -f Dockerfile .
 docker run -it myproject /bin/bash
-'''
+```
 
 # 1. EDA and Data Engineering
 
@@ -40,13 +40,13 @@ docker run -it myproject /bin/bash
 
 # Folder structure
 
-├── data
-│   └── raw
-├── models
-├── notebooks
-│   └── 1_EDA.ipynb
-├── README.md
-├── requirements.txt
-├── src
-│   └── utils.py
-└── tests
+├── data  
+│   └── raw  
+├── models  
+├── notebooks  
+│   └── 1_EDA.ipynb  
+├── README.md  
+├── requirements.txt  
+├── src  
+│   └── utils.py  
+└── tests  
