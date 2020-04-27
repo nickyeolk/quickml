@@ -12,8 +12,9 @@ It is meant to work in the following scenarios:
 
 ## Instructions
 1. Rename project directory
-2. Print directory structure with `apt install tree`, then `tree`. Sample below
-3. Delete everything above this line when you're done
+2. Reset git history https://gist.github.com/stephenhardy/5470814
+3. Print directory structure with `apt install tree`, then `tree`. Sample below
+4. Delete everything above this line when you're done
 
 # Project title
 <description>
