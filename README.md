@@ -10,9 +10,25 @@ It is meant to work in the following scenarios:
 2. set up a run on a vm
 3. run within a docker container
 
+## Instructions
+1. Rename project directory
+2. Delete everything above this line
+
 # Project title
 <description>
-  
+
+# Set up environment
+### Anaconda
+```
+conda create -n myenv python=3 jupyter scikit-learn pandas seaborn streamlit
+conda activate myenv
+```
+### Docker 
+'''
+docker build -t myproject -f Dockerfile .
+docker run -it myproject /bin/bash
+'''
+
 # 1. EDA and Data Engineering
 
 # 2. Model Training and Evaluation
