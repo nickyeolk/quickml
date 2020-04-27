@@ -12,7 +12,8 @@ It is meant to work in the following scenarios:
 
 ## Instructions
 1. Rename project directory
-2. Delete everything above this line
+2. Print directory structure with `apt install tree`, then `tree`. Sample below
+3. Delete everything above this line when you're done
 
 # Project title
 <description>
@@ -37,3 +38,15 @@ docker run -it myproject /bin/bash
 `docker build -t modeldemo .`  
 `docker run -p 5000:5000 modeldemo`
 
+# Folder structure
+
+├── data
+│   └── raw
+├── models
+├── notebooks
+│   └── 1_EDA.ipynb
+├── README.md
+├── requirements.txt
+├── src
+│   └── utils.py
+└── tests
