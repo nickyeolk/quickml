@@ -22,7 +22,7 @@ It is meant to work in the following scenarios:
 # Set up environment
 ### Anaconda
 ```
-conda create -n myenv python=3 jupyter scikit-learn pandas seaborn streamlit
+conda create -n myenv python=3 jupyter scikit-learn pandas seaborn streamlit nb_conda_kernels
 conda activate myenv
 ```
 ### Docker 
